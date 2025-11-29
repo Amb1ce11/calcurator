@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calcurator</title>
+    <style>
+        body { font-family: Arial; width: 200px; padding: 10px; }
+        input, select, button { width: 100%; margin: 5px 0; padding: 5px; }
+        h2 { text-align: center; }
+    </style>
+</head>
+<body>
+    <h2>Calcurator</h2>
+
+    <input id="a" type="number" placeholder="Číslo A">
+    <input id="b" type="number" placeholder="Číslo B">
+
+    <select id="op">
+        <option value="add">+</option>
+        <option value="sub">-</option>
+        <option value="mul">*</option>
+        <option value="div">/</option>
+    </select>
+
+    <button id="calc">Spočítej</button>
+
+    <h3>result: <span id="result"></span></h3>
+
+    <script src="popup.js"></script>
+</body>
+</html>
